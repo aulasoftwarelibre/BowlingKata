@@ -1,32 +1,32 @@
 # Code Kata Python Template
 
-This is the code kata template for python created by [Aula de Software Libre de la Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre/)
+Esto es un template para code kata creado por [Aula de Software Libre de la Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre/)
 
-## Step 1. Use this repository as a template
+## Paso 1. Usa este repositorio como un template
 
-Press the button "Use this template" and create a new repository on your space.
+Presiona el botón "Use this template" y crea un nuevo repositorio en tu espacio.
 
-## Step 2. Clone the repository
+## Paso 2. Clona el repositorio
 
-Clone locally your repository.
+Clona este repositorio localmente.
 
-## Step 3. Install requirements (optional)
+## Paso 3. Instala los requerimientos (opcional)
 
-We are using `virtualenv` for it. You can install it with `pip`:
+Estamos usando `virtualenv`. Puedes instalarlo con `pip`:
 
 `pip install virtualenv`
 
-To create the virtual environment with `python3` and activate it:
+Para crear el entorno virtual con `python3` y activarlo:
 
 ```
 virtualenv -p python3 venv
 source venv/bin/activate
 ```
 
-And install requirements
+E instala los requerimientos:
 
 `pip install -r requirements.txt`
 
-## Step 4. Execute test
+## Paso 4. Ejecuta el test
 
 `python -m unittest`
